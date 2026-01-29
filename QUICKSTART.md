@@ -14,7 +14,7 @@ Before starting, ensure you have:
 ### 1. Clone the Repository
 ```bash
 git clone <your-repo-url>
-cd scip-qa-platform
+cd qa-chatbot
 ```
 
 ### 2. Create Virtual Environment
@@ -120,3 +120,4 @@ STREAMLIT_PORT=8502
 - Customize system prompts
 - Configure additional settings
 - Deploy to production
+
