@@ -12,7 +12,7 @@ def render_upload_interface(api_client: Any):
     
     st.info(
         """
-        Upload documents to add them to the SCIP knowledge base.
+        Upload documents to add them to the knowledge base.
         Supported formats: PDF, DOCX, TXT, MD
         
         **Note:** All uploaded documents are classified as CONFIDENTIAL by default.

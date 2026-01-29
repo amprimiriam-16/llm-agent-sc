@@ -1,6 +1,6 @@
 """
 Sample Data Ingestion Script
-Loads sample SCIP documents into the vector store
+Loads sample documents into the vector store
 """
 import asyncio
 import sys
@@ -16,7 +16,7 @@ from backend.core.config import settings
 
 
 async def ingest_sample_data():
-    """Ingest sample SCIP documents"""
+    """Ingest sample documents"""
     try:
         setup_logging()
         logger.info("Starting sample data ingestion...")
@@ -50,7 +50,7 @@ async def ingest_sample_data():
                     filename=file_path.name,
                     metadata={
                         "classification": "CONFIDENTIAL",
-                        "source": "SCIP Sample Data",
+                        "source": "Sample Data",
                         "category": "Supply Chain Documentation"
                     }
                 )
@@ -70,14 +70,14 @@ async def ingest_sample_data():
 
 if __name__ == "__main__":
     print("=" * 60)
-    print("SCIP QA Platform - Sample Data Ingestion")
+    print("QA Platform - Sample Data Ingestion")
     print("=" * 60)
     
     success = asyncio.run(ingest_sample_data())
     
     if success:
         print("\n✅ Sample data ingestion successful!")
-        print("\nThe knowledge base now contains SCIP supply chain documents.")
+        print("\nThe knowledge base now contains supply chain documents.")
         print("\nYou can now:")
         print("1. Start the backend: python -m uvicorn backend.main:app --reload")
         print("2. Start the frontend: streamlit run frontend/app.py")

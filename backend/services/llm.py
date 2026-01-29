@@ -109,7 +109,7 @@ class LLMService:
             context_text = "\n".join(context_parts)
             
             # Create RAG prompt
-            system_message = """You are an expert AI assistant for BASF's Supply Chain Intelligence Platform (SCIP).
+system_message = """You are an expert AI assistant for Supply Chain Intelligence.
 Your role is to provide accurate, well-sourced answers to questions about supply chain operations, 
 procurement, logistics, and related topics.
 
@@ -119,10 +119,10 @@ Guidelines:
 - If information is not in the sources, clearly state that
 - Be concise but comprehensive
 - Use domain-specific terminology appropriately
-- Maintain BASF's professional standards and confidentiality
+- Maintain professional standards and confidentiality
 """
             
-            user_prompt = f"""Context from SCIP documents:
+            user_prompt = f"""Context from documents:
 
 {context_text}
 

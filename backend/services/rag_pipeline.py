@@ -50,7 +50,7 @@ class RAGPipeline:
             if not sources:
                 logger.warning("No relevant sources found")
                 return {
-                    "answer": "I don't have enough information in the knowledge base to answer this question. Please try rephrasing or ask about topics covered in the SCIP documentation.",
+                    "answer": "I don't have enough information in the knowledge base to answer this question. Please try rephrasing or ask about topics covered in the documentation.",
                     "sources": [],
                     "conversation_id": str(uuid.uuid4())
                 }

@@ -1,10 +1,10 @@
-# SCIP Logistics and Distribution - Sample 2
+# Logistics and Distribution - Sample 2
 
 ## Logistics Network Optimization
 
 ### Distribution Network
 
-BASF operates a comprehensive logistics network spanning 80+ countries with 350+ distribution centers worldwide.
+Comprehensive logistics network spanning 80+ countries with 350+ distribution centers worldwide.
 
 #### Primary Distribution Centers
 
@@ -55,7 +55,7 @@ BASF operates a comprehensive logistics network spanning 80+ countries with 350+
 - 60% of warehouses equipped with automated systems
 - Robotic picking and packing in 25 facilities
 - AI-powered inventory optimization
-- Real-time stock level monitoring via SCIPPY
+- Real-time stock level monitoring via platform
 
 #### Safety Standards
 - ISO 9001, ISO 14001 certified facilities
@@ -91,7 +91,7 @@ BASF operates a comprehensive logistics network spanning 80+ countries with 350+
 
 ### Technology Integration
 
-#### SCIP Platform Features
+#### Platform Features
 - Real-time shipment tracking
 - Automated customs documentation
 - Predictive delay notifications
@@ -101,7 +101,7 @@ BASF operates a comprehensive logistics network spanning 80+ countries with 350+
 - Temperature and humidity monitoring
 - Shock and tilt detection for sensitive cargo
 - GPS location tracking
-- Data integration with SCIPPY analytics
+- Data integration with analytics
 
 ### Performance Metrics
 
@@ -121,4 +121,4 @@ BASF operates a comprehensive logistics network spanning 80+ countries with 350+
 ---
 *Document Classification: CONFIDENTIAL*
 *Last Updated: January 2026*
-*Owner: BASF Logistics & Distribution*
+*Owner: Logistics & Distribution*

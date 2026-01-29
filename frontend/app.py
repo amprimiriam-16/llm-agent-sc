@@ -1,6 +1,6 @@
 """
 Streamlit Frontend Application
-SCIP Question-Answering Platform
+QA Chatbot Platform
 """
 import streamlit as st
 import sys
@@ -19,7 +19,7 @@ from backend.core.config import settings
 
 # Page configuration
 st.set_page_config(
-    page_title="SCIP Question-Answering Platform",
+    page_title="QA Chatbot Platform",
     page_icon="🔍",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -48,7 +48,7 @@ st.markdown("""
         border-radius: 0.5rem;
         margin: 0.5rem 0;
     }
-    .basf-logo {
+    .company-logo {
         color: #000000;
         font-weight: bold;
         font-size: 1.5rem;
@@ -72,7 +72,7 @@ def initialize_session_state():
 def render_sidebar():
     """Render sidebar with settings and info"""
     with st.sidebar:
-        st.markdown('<p class="basf-logo">BASF SCIP</p>', unsafe_allow_html=True)
+        st.markdown('<p class="company-logo">QA Platform</p>', unsafe_allow_html=True)
         st.markdown("---")
         
         # Settings
@@ -116,9 +116,9 @@ def render_sidebar():
         st.subheader("ℹ️ About")
         st.info(
             """
-            **SCIP QA Platform**
+            **QA Platform**
             
-            Enterprise AI-powered question-answering system for BASF's Supply Chain Intelligence Platform.
+            Enterprise AI-powered question-answering system for Supply Chain Intelligence.
             
             **Features:**
             - Agentic RAG with reasoning
@@ -147,9 +147,9 @@ def main():
     initialize_session_state()
     
     # Header
-    st.markdown('<p class="main-header">🔍 SCIP Question-Answering Platform</p>', unsafe_allow_html=True)
+    st.markdown('<p class="main-header">🔍 QA Chatbot Platform</p>', unsafe_allow_html=True)
     st.markdown(
-        '<p class="sub-header">AI-powered insights from BASF Supply Chain Intelligence</p>',
+        '<p class="sub-header">AI-powered insights from Supply Chain Intelligence</p>',
         unsafe_allow_html=True
     )
     

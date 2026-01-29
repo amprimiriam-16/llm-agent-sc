@@ -1,8 +1,8 @@
-# Question-Answering Chatbot
+# QA Chatbot Platform
 
 ## Overview
 
-Enterprise-grade Question-Answering Chatbot for providing Supply Chain Intelligence using LLM-powered Retrieval Augmented Generation (RAG) with Agentic capabilities and Model Context Protocol (MCP).
+Enterprise-grade Question-Answering platform using LLM-powered Retrieval Augmented Generation (RAG) with Agentic capabilities and Model Context Protocol (MCP).
 
 ### Key Features
 
@@ -29,14 +29,14 @@ Enterprise-grade Question-Answering Chatbot for providing Supply Chain Intellige
 - **JSON-RPC Protocol**: Standard communication format for LLM interactions
 - **Tool Orchestration**: Intelligent selection and chaining of tools
 
-#### 📊 Context
+#### 📊 Supply Chain Context
 - **Sample Supply Chain Documentation**: 
   - Global procurement strategies and supplier diversification
   - Logistics network optimization across 80+ countries
   - Supplier performance management and KPIs
   - Inventory management with JIT and ABC analysis
-- **Domain-Specific Prompts**: Tailored for BASF supply chain operations
-- **Chatbot Integration**: References to BASF's digital procurement platform
+- **Domain-Specific Prompts**: Tailored for supply chain operations
+- **Platform Integration**: References to digital procurement platform
 - **Real-World Metrics**: Actual performance targets and benchmarks
 
 #### 🏭 Production-Ready Architecture
@@ -102,7 +102,7 @@ This repository contains a complete, production-ready implementation:
 - ✅ Agentic RAG with query decomposition
 - ✅ MCP (Model Context Protocol) server
 - ✅ Health monitoring and logging
-- ✅ Governance and compliance features
+- ✅ governance and compliance features
 
 ### Frontend (Streamlit)
 - ✅ Interactive chat interface
@@ -112,7 +112,7 @@ This repository contains a complete, production-ready implementation:
 - ✅ Agent reasoning visualization
 
 ### Data & Configuration
-- ✅ 4 comprehensive SCIP sample documents
+- ✅ 4 comprehensive sample documents
 - ✅ Environment configuration template
 - ✅ Initialization scripts
 - ✅ Database setup automation
@@ -182,12 +182,12 @@ AZURE_OPENAI_EMBEDDING_DEPLOYMENT=text-embedding-ada-002
 # Azure Cosmos DB (Required)
 COSMOS_DB_ENDPOINT=https://your-account.documents.azure.com:443/
 COSMOS_DB_KEY=your-cosmos-key-here
-COSMOS_DB_DATABASE_NAME=scip_knowledge_base
+COSMOS_DB_DATABASE_NAME=knowledge_base
 COSMOS_DB_CONTAINER_NAME=documents
 
-# Configuration (Optional for demo)
-SCI_API_ENDPOINT=https://sci.com/api
-SCI_API_KEY=your-sci-api-key
+# API Configuration (Optional for demo)
+API_ENDPOINT=https://api.example.com/api
+API_KEY=your-scip-api-key
 ```
 
 **How to Get Azure Credentials:**
@@ -216,7 +216,7 @@ python scripts/init_database.py
 ```
 
 This creates:
-- Database: `scip_knowledge_base`
+- Database: `knowledge_base`
 - Container: `documents` with vector index
 - Vector embedding policy for 1536-dimension embeddings
 
@@ -260,8 +260,8 @@ python backend/mcp/server.py
 ### 9. Try It Out
 
 **Ask Sample Questions:**
-- "What is the global procurement strategy of the company?"
-- "How many distribution centers does the company operate?"
+- "What is the global procurement strategy?"
+- "How many distribution centers are there?"
 - "What are the key supplier evaluation criteria?"
 - "Explain the inventory optimization approach"
 - "What are the sustainability initiatives in logistics?"
@@ -272,7 +272,7 @@ python backend/mcp/server.py
 cd qa-chatbot
 git init
 git add .
-git commit -m "Initial commit: QA Platform v1.0"
+git commit -m "Initial commit: QA Chatbot Platform v1.0"
 git branch -M main
 git remote add origin https://github.com/your-username/qa-chatbot.git
 git push -u origin main
@@ -320,7 +320,7 @@ qa-chatbot/
 │       └── api_client.py         # Backend API client
 ├── data/
 │   ├── sample/
-│   │   ├── supply_chain_docs/    # Sample SCIP documents
+│   │   ├── supply_chain_docs/    # Sample documents
 │   │   └── procurement_data/     # Sample procurement data
 │   └── schemas/
 │       └── cosmos_schema.json    # Cosmos DB schema
@@ -372,7 +372,7 @@ response = requests.post(
 print(response.json())
 ```
 
-## BASF Governance & Compliance
+## Governance & Compliance
 
 ### Data Classification
 
@@ -387,7 +387,7 @@ All data is treated as **CONFIDENTIAL** by default. The platform implements:
 
 - **GDPR Compliance**: Data retention policies and right to deletion
 - **SOX Compliance**: Audit trails for financial data queries
-- **BASF Standards**: Adherence to BASF's data governance policies
+- **Data Governance**: Adherence to data governance policies
 
 ## MCP (Model Context Protocol)
 
@@ -395,7 +395,7 @@ The platform implements MCP for standardized LLM interactions:
 
 ```python
 # MCP tools available:
-- search_documents: Semantic search across SCIP data
+- search_documents: Semantic search across data
 - retrieve_context: Get relevant context for queries
 - analyze_supply_chain: Domain-specific analysis
 - generate_insights: AI-powered insight generation
@@ -516,6 +516,16 @@ See [DEPLOYMENT.md](docs/DEPLOYMENT.md) for detailed Azure deployment instructio
 3. Push to branch: `git push origin feature/new-feature`
 4. Create Pull Request
 
+## License
+
+MIT License
+
+## Support
+
+For issues or questions:
+- Create an issue on GitHub
+- Documentation: https://api.example.com/docs
+- 
 
 ## Acknowledgments
 
@@ -529,7 +539,4 @@ Built with:
 
 **Version**: 1.0.0  
 **Last Updated**: January 2026  
-
-
-
-
+**Maintainer**: Development Team

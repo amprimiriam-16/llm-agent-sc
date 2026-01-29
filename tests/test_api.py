@@ -28,7 +28,7 @@ def test_ask_question():
     response = client.post(
         "/api/v1/chat/ask",
         json={
-            "question": "What is BASF's procurement strategy?",
+            "question": "What is the procurement strategy?",
             "use_agentic": False,
             "max_sources": 3
         }

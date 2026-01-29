@@ -1,4 +1,4 @@
-# SCIP Supplier Management - Sample 3
+# Supplier Management - Sample 3
 
 ## Supplier Performance and Management
 
@@ -77,12 +77,12 @@
 
 4. **Full Activation** (Ongoing)
    - Full order integration
-   - SCIPPY platform access
+   - Platform access
    - Regular performance reviews
 
 ### Performance Monitoring
 
-#### KPIs Tracked in SCIPPY
+#### KPIs Tracked
 - Quality Score: Real-time defect tracking
 - Delivery Performance: Order fulfillment metrics
 - Cost Competitiveness: Price benchmarking
@@ -98,7 +98,7 @@
 ### Supplier Development Programs
 
 #### Excellence Academy
-- Training on BASF quality standards
+- Training on quality standards
 - Process optimization workshops
 - Sustainability best practices
 - Digital transformation support
@@ -145,7 +145,7 @@
 
 ### Technology Integration
 
-#### SCIPPY Supplier Portal
+#### Supplier Portal
 - Self-service order management
 - Invoice and payment tracking
 - Performance dashboard access
@@ -167,7 +167,7 @@
 - Ad-hoc issue resolution meetings
 
 #### Digital Channels
-- SCIPPY messaging platform
+- Platform messaging
 - Email alerts and notifications
 - Video conferencing for remote collaboration
 - Shared project workspaces
@@ -189,4 +189,4 @@
 ---
 *Document Classification: CONFIDENTIAL*
 *Last Updated: January 2026*
-*Owner: BASF Supplier Management Office*
+*Owner: Supplier Management Office*

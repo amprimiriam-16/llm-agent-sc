@@ -1,10 +1,10 @@
-# SCIP Inventory Management - Sample 4
+# Inventory Management - Sample 4
 
 ## Inventory Optimization and Control
 
 ### Inventory Strategy
 
-BASF maintains a dynamic inventory management approach balancing cost efficiency with service excellence across the global supply chain.
+Dynamic inventory management approach balancing cost efficiency with service excellence across the global supply chain.
 
 ### Inventory Categories
 
@@ -34,7 +34,7 @@ BASF maintains a dynamic inventory management approach balancing cost efficiency
 
 ### Inventory Management Systems
 
-#### SCIPPY Integration
+#### Platform Integration
 - Real-time inventory visibility across 350+ locations
 - Automated reorder point calculations
 - Multi-echelon inventory optimization
@@ -118,7 +118,7 @@ BASF maintains a dynamic inventory management approach balancing cost efficiency
 - Real-time location tracking
 
 #### Warehouse Management System (WMS)
-- Integrated with SCIPPY platform
+- Integrated with platform
 - Wave planning and optimization
 - Labor management
 - Quality control integration
@@ -215,4 +215,4 @@ Targets (2027):
 ---
 *Document Classification: CONFIDENTIAL*
 *Last Updated: January 2026*
-*Owner: BASF Inventory Management Team*
+*Owner: Inventory Management Team*

@@ -1,9 +1,9 @@
-# SCIP Supply Chain Documentation - Sample 1
+# Supply Chain Documentation - Sample 1
 
 ## Global Procurement Strategies
 
 ### Overview
-BASF's global procurement strategy focuses on sustainable sourcing, supplier diversification, and cost optimization across all regions.
+Global procurement strategy focuses on sustainable sourcing, supplier diversification, and cost optimization across all regions.
 
 ### Key Initiatives
 
@@ -13,7 +13,7 @@ BASF's global procurement strategy focuses on sustainable sourcing, supplier div
 - Risk mitigation through multi-sourcing strategies
 
 #### Sustainable Sourcing
-- 100% suppliers to meet BASF sustainability standards
+- 100% suppliers to meet sustainability standards
 - Carbon footprint tracking for all tier-1 suppliers
 - Circular economy principles in procurement decisions
 
@@ -35,7 +35,7 @@ BASF's global procurement strategy focuses on sustainable sourcing, supplier div
 - Focus on emerging technologies and materials
 
 ### Digital Procurement Platform
-- SCIPPY integration for automated purchase orders
+- Platform integration for automated purchase orders
 - Real-time spend analytics and reporting
 - AI-powered supplier performance monitoring
 
@@ -50,11 +50,11 @@ BASF's global procurement strategy focuses on sustainable sourcing, supplier div
 - Business continuity planning for critical materials
 
 ### Compliance
-- All suppliers must comply with BASF Code of Conduct
+- All suppliers must comply with Code of Conduct
 - Regular audits and assessments
 - Transparency in supply chain practices
 
 ---
 *Document Classification: CONFIDENTIAL*
 *Last Updated: January 2026*
-*Owner: BASF Procurement Excellence Team*
+*Owner: Procurement Excellence Team*

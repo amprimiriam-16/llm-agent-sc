@@ -1,6 +1,6 @@
 """
 FastAPI Backend Main Application
-SCIP Question-Answering Platform
+QA Chatbot Platform
 """
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
@@ -17,20 +17,20 @@ from backend.api.routes import chat, documents, health
 async def lifespan(app: FastAPI):
     """Application lifespan events"""
     # Startup
-    logger.info("Starting SCIP QA Platform API")
+    logger.info("Starting QA Platform API")
     logger.info(f"Environment: {settings.ENVIRONMENT}")
     logger.info(f"Azure OpenAI Endpoint: {settings.AZURE_OPENAI_ENDPOINT}")
     
     yield
     
     # Shutdown
-    logger.info("Shutting down SCIP QA Platform API")
+    logger.info("Shutting down QA Platform API")
 
 
 # Initialize FastAPI app
 app = FastAPI(
-    title="SCIP Question-Answering Platform API",
-    description="Enterprise RAG platform for BASF Supply Chain Intelligence",
+    title="QA Chatbot Platform API",
+    description="Enterprise RAG platform for Supply Chain Intelligence",
     version="1.0.0",
     lifespan=lifespan,
     docs_url="/docs",
@@ -95,7 +95,7 @@ app.include_router(documents.router, prefix="/api/v1/documents", tags=["Document
 async def root():
     """Root endpoint with API information"""
     return {
-        "name": "SCIP Question-Answering Platform",
+        "name": "QA Chatbot Platform",
         "version": "1.0.0",
         "status": "operational",
         "environment": settings.ENVIRONMENT,

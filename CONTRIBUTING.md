@@ -1,8 +1,8 @@
-# Contributing to SCIP QA Platform
+# Contributing to QA Chatbot Platform
 
 ## Getting Started
 
-Thank you for considering contributing to the SCIP QA Platform! This document provides guidelines for contributing.
+Thank you for considering contributing to the QA Chatbot Platform! This document provides guidelines for contributing.
 
 ## Development Setup
 
@@ -44,4 +44,4 @@ pytest
 
 ## Questions?
 
-Contact: scip-support@basf.com
+Create an issue on GitHub for questions.

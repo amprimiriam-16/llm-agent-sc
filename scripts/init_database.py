@@ -38,7 +38,7 @@ async def initialize_database():
 
 if __name__ == "__main__":
     print("=" * 60)
-    print("SCIP QA Platform - Database Initialization")
+    print("QA Platform - Database Initialization")
     print("=" * 60)
     
     success = asyncio.run(initialize_database())

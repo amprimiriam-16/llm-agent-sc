@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 ## [1.0.0] - 2026-01-29
 
 ### Added
-- Initial release of QA Chatbot
+- Initial release of QA Chatbot Platform
 - FastAPI backend with RAG endpoints
 - Streamlit frontend with chat interface
 - Azure Cosmos DB vector store integration
@@ -30,4 +30,3 @@ All notable changes to this project will be documented in this file.
 - Data classification support
 - Audit logging
 - Secure credential management
-

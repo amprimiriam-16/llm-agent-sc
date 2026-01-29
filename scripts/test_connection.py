@@ -67,7 +67,7 @@ async def run_tests():
     setup_logging()
     
     print("=" * 60)
-    print("SCIP QA Platform - Azure Connection Tests")
+    print("QA Platform - Azure Connection Tests")
     print("=" * 60)
     
     print(f"\nConfiguration:")

@@ -20,14 +20,14 @@ class Settings(BaseSettings):
     # Azure Cosmos DB
     COSMOS_DB_ENDPOINT: str
     COSMOS_DB_KEY: str
-    COSMOS_DB_DATABASE_NAME: str = "scip_knowledge_base"
+    COSMOS_DB_DATABASE_NAME: str = "knowledge_base"
     COSMOS_DB_CONTAINER_NAME: str = "documents"
     COSMOS_DB_VECTOR_EMBEDDING_POLICY: bool = True
     
-    # SCIP Configuration
-    SCIP_API_ENDPOINT: str = "https://scip.basf.com/api"
-    SCIP_API_KEY: str = ""
-    SCIPPY_ENABLED: bool = True
+    # API Configuration
+    API_ENDPOINT: str = "https://api.example.com/api"
+    API_KEY: str = ""
+    APPLY_ENABLED: bool = True
     
     # Application Settings
     ENVIRONMENT: str = "development"
@@ -54,9 +54,9 @@ class Settings(BaseSettings):
     SECRET_KEY: str = "change-this-in-production"
     ALLOWED_ORIGINS: List[str] = ["http://localhost:8501", "http://localhost:3000"]
     
-    # BASF Governance
+    # Governance
     DATA_CLASSIFICATION: str = "CONFIDENTIAL"
-    COMPLIANCE_MODE: str = "BASF_STANDARD"
+    COMPLIANCE_MODE: str = "STANDARD"
     AUDIT_LOGGING: bool = True
     
     class Config:

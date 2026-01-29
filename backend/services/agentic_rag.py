@@ -111,7 +111,7 @@ class AgenticRAG:
             List of sub-queries
         """
         try:
-            system_message = """You are a query planning agent for BASF's Supply Chain Intelligence Platform.
+system_message = """You are a query planning agent for Supply Chain Intelligence Platform.
 Your task is to analyze questions and break them down into focused sub-queries that can be answered independently.
 
 Guidelines:
@@ -180,7 +180,7 @@ Decompose this into focused sub-queries. Return ONLY a JSON array, for example:
                 for s in sources
             ])
             
-            system_message = """You are an expert synthesis agent for BASF's Supply Chain Intelligence Platform.
+            system_message = """You are an expert synthesis agent for Supply Chain Intelligence Platform.
 Your task is to combine information from multiple sub-analyses into a comprehensive, coherent answer.
 
 Guidelines:
@@ -188,7 +188,7 @@ Guidelines:
 - Resolve any contradictions
 - Provide a well-structured, complete answer
 - Cite sources appropriately
-- Maintain BASF professional standards
+- Maintain professional standards
 """
             
             prompt = f"""Original Question: {question}

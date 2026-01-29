@@ -31,7 +31,7 @@ class MCPServer:
         """Register available MCP tools"""
         return {
             "search_documents": {
-                "description": "Search SCIP documents using semantic similarity",
+                "description": "Search documents using semantic similarity",
                 "parameters": {
                     "query": {"type": "string", "description": "Search query"},
                     "max_results": {"type": "integer", "default": 5}
@@ -161,7 +161,7 @@ class MCPServer:
             context = "\n\n".join([r["content"] for r in results])
             
             # Generate analysis
-            system_message = """You are a BASF supply chain analysis expert.
+            system_message = """You are a supply chain analysis expert.
 Provide structured, data-driven analysis focusing on:
 - Key metrics and KPIs
 - Risk assessment
@@ -221,11 +221,11 @@ Provide a structured analysis with clear insights and recommendations."""
                 "opportunities": "Identify optimization opportunities and potential improvements in the following context:"
             }
             
-            system_message = f"""You are a BASF strategic insights analyst.
+            system_message = f"""You are a strategic insights analyst.
 Generate {insight_type} insights that are:
 - Data-driven and specific
 - Actionable with clear next steps
-- Aligned with BASF operational excellence
+- Aligned with operational excellence
 """
             
             prompt = f"""{insight_prompts.get(insight_type, insight_prompts['trends'])}
