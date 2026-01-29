@@ -4,7 +4,7 @@ services:
   # FastAPI Backend
   backend:
     build: .
-    container_name: scip-qa-backend
+    container_name: qa-backend
     ports:
       - "8000:8000"
     environment:
@@ -28,7 +28,7 @@ services:
   # Streamlit Frontend
   frontend:
     build: .
-    container_name: scip-qa-frontend
+    container_name: qa-frontend
     ports:
       - "8501:8501"
     environment:
@@ -43,7 +43,7 @@ services:
   # MCP Server (Optional)
   mcp-server:
     build: .
-    container_name: scip-qa-mcp
+    container_name: qa-mcp
     ports:
       - "8001:8001"
     environment:
@@ -57,8 +57,9 @@ services:
 
 networks:
   default:
-    name: scip-qa-network
+    name: qa-network
 
 volumes:
   logs:
   data:
+
