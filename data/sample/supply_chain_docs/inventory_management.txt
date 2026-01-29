@@ -1,0 +1,218 @@
+# SCIP Inventory Management - Sample 4
+
+## Inventory Optimization and Control
+
+### Inventory Strategy
+
+BASF maintains a dynamic inventory management approach balancing cost efficiency with service excellence across the global supply chain.
+
+### Inventory Categories
+
+#### Raw Materials
+- Average holding: 45 days
+- Safety stock: 15 days for critical materials
+- Total value: €2.3 billion globally
+- Management: Just-in-Time with strategic buffers
+
+#### Work-in-Process (WIP)
+- Average cycle time: 7-14 days
+- Real-time tracking through manufacturing
+- Optimization target: 20% reduction by 2027
+- Value: €800 million
+
+#### Finished Goods
+- Target inventory days: 30-35 days
+- Regional distribution center stock
+- Total value: €3.1 billion
+- Fill rate target: >98%
+
+#### Spare Parts and Maintenance
+- Critical equipment spares maintained
+- Predictive maintenance integration
+- Value: €450 million
+- Availability target: 99.5%
+
+### Inventory Management Systems
+
+#### SCIPPY Integration
+- Real-time inventory visibility across 350+ locations
+- Automated reorder point calculations
+- Multi-echelon inventory optimization
+- Demand forecasting and planning
+
+#### ABC Analysis
+
+**A-Items (20% of SKUs, 80% of value)**
+- Daily monitoring and optimization
+- Advanced forecasting models
+- Strategic safety stock levels
+- Supplier collaboration programs
+
+**B-Items (30% of SKUs, 15% of value)**
+- Weekly monitoring
+- Standard forecasting methods
+- Moderate safety stock
+- Regular supplier review
+
+**C-Items (50% of SKUs, 5% of value)**
+- Monthly monitoring
+- Simple reorder rules
+- Minimal safety stock
+- Bulk ordering strategies
+
+### Demand Forecasting
+
+#### Methods Used
+- Statistical forecasting (ARIMA, exponential smoothing)
+- Machine learning models for complex patterns
+- Collaborative planning with customers
+- Market intelligence integration
+
+#### Forecast Accuracy
+- Target: 85% for A-items
+- Current performance: 83%
+- Monthly forecast review and adjustment
+- Bias tracking and correction
+
+### Safety Stock Optimization
+
+#### Calculation Methodology
+- Service level-based calculation
+- Lead time variability consideration
+- Demand variability analysis
+- Cost-service trade-off optimization
+
+#### Dynamic Adjustment
+- Automated rebalancing based on:
+  - Demand pattern changes
+  - Supplier performance variations
+  - Seasonal factors
+  - Market conditions
+
+### Warehouse Operations
+
+#### Slotting Optimization
+- High-velocity items in prime locations
+- Quarterly slotting review
+- ABC-based location assignment
+- Pick path optimization
+
+#### Cycle Counting
+- Daily cycle counts for A-items
+- Weekly for B-items
+- Monthly for C-items
+- Target accuracy: >99%
+
+#### Inventory Turnover
+- Overall target: 8-10 turns per year
+- Finished goods: 10-12 turns
+- Raw materials: 6-8 turns
+- Obsolescence management: <2% of total value
+
+### Technology and Automation
+
+#### RFID and Barcode Scanning
+- 100% barcode coverage
+- RFID for high-value items
+- Automated receipt and putaway
+- Real-time location tracking
+
+#### Warehouse Management System (WMS)
+- Integrated with SCIPPY platform
+- Wave planning and optimization
+- Labor management
+- Quality control integration
+
+#### Automated Storage and Retrieval (AS/RS)
+- Deployed in 25 major facilities
+- 40% space utilization improvement
+- 99.9% pick accuracy
+- Reduced labor costs by 35%
+
+### Inventory Analytics
+
+#### Key Metrics Dashboard
+- Inventory days on hand
+- Stockout rate
+- Excess and obsolete inventory
+- Inventory turnover ratio
+- Cash-to-cash cycle time
+
+#### Predictive Analytics
+- Slow-moving inventory identification
+- Obsolescence risk scoring
+- Demand spike prediction
+- Supply disruption impact analysis
+
+### Sustainability Initiatives
+
+#### Waste Reduction
+- Target: 50% reduction in obsolete inventory
+- Donation programs for near-expiry goods
+- Recycling and responsible disposal
+- Packaging material reuse
+
+#### Energy Efficiency
+- Temperature-controlled storage optimization
+- LED lighting in all warehouses
+- Solar panels at 15 major facilities
+- 30% energy reduction target by 2028
+
+### Cross-Functional Collaboration
+
+#### Sales and Operations Planning (S&OP)
+- Monthly S&OP meetings
+- 18-month rolling forecast
+- Scenario planning and risk assessment
+- Alignment on inventory targets
+
+#### Supplier Collaboration
+- Vendor-managed inventory (VMI) programs
+- Consignment inventory arrangements
+- Shared forecasts and planning
+- Collaborative replenishment
+
+### Emergency and Contingency Planning
+
+#### Business Continuity
+- Strategic inventory buffers for critical items
+- Alternative supplier agreements
+- Regional stock transfers capability
+- Emergency procurement procedures
+
+#### Natural Disaster Preparedness
+- Risk assessment for all locations
+- Evacuation and protection protocols
+- Insurance coverage optimization
+- Rapid recovery procedures
+
+### Performance Metrics
+
+Current Performance (2026):
+- Inventory Accuracy: 99.2%
+- Stockout Rate: 1.3%
+- Inventory Turnover: 8.7 times/year
+- Obsolescence Rate: 1.8%
+- Order Fill Rate: 98.3%
+- Cash-to-Cash Cycle: 42 days
+
+Targets (2027):
+- Inventory Accuracy: 99.5%
+- Stockout Rate: <1%
+- Inventory Turnover: 9.5 times/year
+- Obsolescence Rate: <1.5%
+- Order Fill Rate: 99%
+- Cash-to-Cash Cycle: 38 days
+
+### Future Initiatives
+
+- AI-powered demand sensing
+- Blockchain for inventory traceability
+- Autonomous mobile robots in warehouses
+- Digital twin simulation for optimization
+- Predictive maintenance integration
+
+---
+*Document Classification: CONFIDENTIAL*
+*Last Updated: January 2026*
+*Owner: BASF Inventory Management Team*

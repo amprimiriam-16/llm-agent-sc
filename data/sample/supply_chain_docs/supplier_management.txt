@@ -1,0 +1,192 @@
+# SCIP Supplier Management - Sample 3
+
+## Supplier Performance and Management
+
+### Supplier Categories
+
+#### Strategic Suppliers (Tier 1)
+- Long-term partnerships (5+ years)
+- High-value, high-volume contracts
+- Integrated planning and forecasting
+- Quarterly business reviews
+- Count: 450 global suppliers
+
+#### Preferred Suppliers (Tier 2)
+- Proven track record (2-5 years)
+- Consistent quality and delivery
+- Semi-annual performance reviews
+- Count: 1,200 suppliers
+
+#### Qualified Suppliers (Tier 3)
+- Approved for specific categories
+- Annual qualification renewal
+- Standard performance monitoring
+- Count: 3,500+ suppliers
+
+### Supplier Evaluation Criteria
+
+#### Quality (30% weight)
+- Defect rate < 0.5%
+- Certification compliance (ISO, industry-specific)
+- Quality management system assessment
+- Corrective action responsiveness
+
+#### Delivery (25% weight)
+- On-time delivery rate > 95%
+- Lead time consistency
+- Flexibility and responsiveness
+- Emergency order capability
+
+#### Cost (20% weight)
+- Competitive pricing
+- Total cost of ownership
+- Payment terms flexibility
+- Cost reduction initiatives
+
+#### Sustainability (15% weight)
+- Carbon footprint reporting
+- Sustainable practices certification
+- Ethical sourcing compliance
+- Circular economy participation
+
+#### Innovation (10% weight)
+- R&D collaboration
+- New product development support
+- Process improvement suggestions
+- Technology adoption
+
+### Supplier Onboarding Process
+
+1. **Initial Assessment** (2-4 weeks)
+   - Financial stability check
+   - Capability assessment
+   - Compliance verification
+   - Reference checks
+
+2. **Qualification** (4-6 weeks)
+   - Site audit
+   - Quality system review
+   - Sample testing
+   - Contract negotiation
+
+3. **Pilot Phase** (3 months)
+   - Small-scale orders
+   - Performance monitoring
+   - Issue resolution
+   - Feedback incorporation
+
+4. **Full Activation** (Ongoing)
+   - Full order integration
+   - SCIPPY platform access
+   - Regular performance reviews
+
+### Performance Monitoring
+
+#### KPIs Tracked in SCIPPY
+- Quality Score: Real-time defect tracking
+- Delivery Performance: Order fulfillment metrics
+- Cost Competitiveness: Price benchmarking
+- Responsiveness: Communication and issue resolution
+- Innovation Index: Collaboration and improvement initiatives
+
+#### Scorecard System
+- Monthly automated scorecard generation
+- Traffic light system (Green/Yellow/Red)
+- Trend analysis and predictive alerts
+- Performance improvement plans for underperforming suppliers
+
+### Supplier Development Programs
+
+#### Excellence Academy
+- Training on BASF quality standards
+- Process optimization workshops
+- Sustainability best practices
+- Digital transformation support
+
+#### Collaborative Innovation
+- Joint R&D projects
+- Shared cost savings programs
+- Technology transfer initiatives
+- Co-development agreements
+
+### Risk Management
+
+#### Financial Risk
+- Credit rating monitoring
+- Payment term optimization
+- Financial health dashboards
+- Early warning systems
+
+#### Operational Risk
+- Capacity monitoring
+- Business continuity planning
+- Dual sourcing strategies
+- Inventory buffer management
+
+#### Compliance Risk
+- Regular audits and assessments
+- Code of Conduct adherence
+- Regulatory compliance tracking
+- Ethical sourcing verification
+
+### Supplier Diversity
+
+#### Goals
+- 20% spend with diverse suppliers by 2027
+- Support for small and medium enterprises (SMEs)
+- Regional supplier development
+- Inclusive procurement practices
+
+#### Categories
+- Women-owned businesses
+- Minority-owned businesses
+- Veteran-owned businesses
+- Local/regional suppliers
+
+### Technology Integration
+
+#### SCIPPY Supplier Portal
+- Self-service order management
+- Invoice and payment tracking
+- Performance dashboard access
+- Document management
+- Collaboration tools
+
+#### Analytics & Insights
+- Predictive analytics for supplier risk
+- Spend analysis and optimization
+- Market intelligence integration
+- Supplier benchmarking
+
+### Communication and Collaboration
+
+#### Regular Touchpoints
+- Monthly operational reviews
+- Quarterly business reviews (strategic suppliers)
+- Annual strategic planning sessions
+- Ad-hoc issue resolution meetings
+
+#### Digital Channels
+- SCIPPY messaging platform
+- Email alerts and notifications
+- Video conferencing for remote collaboration
+- Shared project workspaces
+
+### Continuous Improvement
+
+#### Supplier Feedback
+- Annual supplier satisfaction survey
+- Continuous improvement suggestions
+- Best practice sharing
+- Recognition programs
+
+#### Performance Incentives
+- Volume bonuses for excellence
+- Long-term contract opportunities
+- Co-investment in innovation
+- Preferred supplier status benefits
+
+---
+*Document Classification: CONFIDENTIAL*
+*Last Updated: January 2026*
+*Owner: BASF Supplier Management Office*

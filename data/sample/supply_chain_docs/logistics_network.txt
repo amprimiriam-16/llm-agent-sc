@@ -1,0 +1,124 @@
+# SCIP Logistics and Distribution - Sample 2
+
+## Logistics Network Optimization
+
+### Distribution Network
+
+BASF operates a comprehensive logistics network spanning 80+ countries with 350+ distribution centers worldwide.
+
+#### Primary Distribution Centers
+
+**Europe**
+- Antwerp, Belgium: 250,000 m² - Chemical hub
+- Rotterdam, Netherlands: 180,000 m² - Port logistics
+- Ludwigshafen, Germany: 320,000 m² - Central European distribution
+
+**Americas**
+- Houston, TX: 200,000 m² - Petrochemicals
+- São Paulo, Brazil: 120,000 m² - South American hub
+- Freeport, TX: 280,000 m² - Manufacturing & distribution
+
+**Asia-Pacific**
+- Singapore: 150,000 m² - Southeast Asian hub
+- Shanghai, China: 220,000 m² - Greater China distribution
+- Yokohama, Japan: 95,000 m² - Japanese market
+
+### Transportation Modes
+
+#### Maritime Shipping
+- 45% of global volume
+- Dedicated chemical tankers for bulk transport
+- Average transit time: 28 days (intercontinental)
+- ISO tank container fleet: 12,500+ units
+
+#### Rail Transport
+- 30% of European volume
+- Dedicated rail connections to major production sites
+- Reduced carbon footprint vs. road transport
+- Average delivery time: 3-5 days (regional)
+
+#### Road Transport
+- 20% of total volume
+- Last-mile delivery and regional distribution
+- Fleet optimization using AI routing
+- Real-time GPS tracking on all vehicles
+
+#### Air Freight
+- 5% of volume (high-value, time-critical)
+- Dedicated partnerships with cargo carriers
+- Express delivery: 24-48 hours globally
+- Specialized handling for sensitive materials
+
+### Warehouse Management
+
+#### Automation
+- 60% of warehouses equipped with automated systems
+- Robotic picking and packing in 25 facilities
+- AI-powered inventory optimization
+- Real-time stock level monitoring via SCIPPY
+
+#### Safety Standards
+- ISO 9001, ISO 14001 certified facilities
+- Advanced fire suppression systems
+- Temperature-controlled storage for sensitive products
+- 24/7 security monitoring
+
+### Inventory Management
+
+#### Just-in-Time (JIT) Strategy
+- Target: 95% on-time delivery
+- Reduced inventory holding costs by 22%
+- Strategic buffer stocks for critical materials
+- Demand forecasting using machine learning
+
+#### Stock Rotation
+- FIFO (First-In-First-Out) for all products
+- Automated expiry date tracking
+- Quality control at each distribution point
+
+### Sustainability Initiatives
+
+#### Carbon Reduction
+- Target: 40% reduction in logistics emissions by 2030
+- Electric vehicle fleet expansion
+- Route optimization for fuel efficiency
+- Multimodal transport prioritization
+
+#### Packaging
+- Recyclable packaging: 85% by 2025
+- Reusable container programs
+- Packaging waste reduction: 30% target
+
+### Technology Integration
+
+#### SCIP Platform Features
+- Real-time shipment tracking
+- Automated customs documentation
+- Predictive delay notifications
+- Dynamic route optimization
+
+#### IoT Sensors
+- Temperature and humidity monitoring
+- Shock and tilt detection for sensitive cargo
+- GPS location tracking
+- Data integration with SCIPPY analytics
+
+### Performance Metrics
+
+- On-Time Delivery Rate: 96.3%
+- Inventory Accuracy: 99.1%
+- Order Fill Rate: 98.7%
+- Average Order Processing Time: 4.2 hours
+- Warehouse Utilization: 87%
+
+### Future Developments
+
+- Autonomous delivery pilots in select regions
+- Drone delivery for remote locations
+- Blockchain for supply chain transparency
+- AI-powered demand forecasting enhancement
+
+---
+*Document Classification: CONFIDENTIAL*
+*Last Updated: January 2026*
+*Owner: BASF Logistics & Distribution*
