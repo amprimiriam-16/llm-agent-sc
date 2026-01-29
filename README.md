@@ -22,21 +22,21 @@ Enterprise-grade Question-Answering Chatbot for providing Supply Chain Intellige
 
 #### 🌐 MCP (Model Context Protocol) Integration
 - **4 Standardized Tools**: 
-  - `search_documents`: Semantic search across SCIP knowledge base
+  - `search_documents`: Semantic search across knowledge base
   - `retrieve_context`: Depth-configurable context retrieval
   - `analyze_supply_chain`: Domain-specific supply chain analysis
   - `generate_insights`: AI-powered trend, risk, and opportunity identification
 - **JSON-RPC Protocol**: Standard communication format for LLM interactions
 - **Tool Orchestration**: Intelligent selection and chaining of tools
 
-#### 📊 BASF SCIP Context
+#### 📊 Context
 - **Sample Supply Chain Documentation**: 
   - Global procurement strategies and supplier diversification
   - Logistics network optimization across 80+ countries
   - Supplier performance management and KPIs
   - Inventory management with JIT and ABC analysis
 - **Domain-Specific Prompts**: Tailored for BASF supply chain operations
-- **SCIPPY Integration**: References to BASF's digital procurement platform
+- **Chatbot Integration**: References to BASF's digital procurement platform
 - **Real-World Metrics**: Actual performance targets and benchmarks
 
 #### 🏭 Production-Ready Architecture
@@ -102,7 +102,7 @@ This repository contains a complete, production-ready implementation:
 - ✅ Agentic RAG with query decomposition
 - ✅ MCP (Model Context Protocol) server
 - ✅ Health monitoring and logging
-- ✅ BASF governance and compliance features
+- ✅ Governance and compliance features
 
 ### Frontend (Streamlit)
 - ✅ Interactive chat interface
@@ -130,7 +130,7 @@ This repository contains a complete, production-ready implementation:
 - Azure subscription with:
   - Azure OpenAI Service
   - Azure Cosmos DB (with vector search capability)
-- SCIP API access credentials
+- API access credentials
 - Git
 
 ## Quick Start
@@ -139,7 +139,7 @@ This repository contains a complete, production-ready implementation:
 
 ```bash
 git clone <repository-url>
-cd scip-qa-platform
+cd qa-chatbot
 ```
 
 ### 2. Environment Setup
@@ -185,9 +185,9 @@ COSMOS_DB_KEY=your-cosmos-key-here
 COSMOS_DB_DATABASE_NAME=scip_knowledge_base
 COSMOS_DB_CONTAINER_NAME=documents
 
-# SCIP Configuration (Optional for demo)
-SCIP_API_ENDPOINT=https://scip.basf.com/api
-SCIP_API_KEY=your-scip-api-key
+# Configuration (Optional for demo)
+SCI_API_ENDPOINT=https://sci.com/api
+SCI_API_KEY=your-sci-api-key
 ```
 
 **How to Get Azure Credentials:**
@@ -223,7 +223,7 @@ This creates:
 ### 6. Load Sample Data
 
 ```bash
-# Ingest sample SCIP supply chain documents
+# Ingest sample supply chain documents
 python scripts/ingest_sample_data.py
 ```
 
@@ -260,8 +260,8 @@ python backend/mcp/server.py
 ### 9. Try It Out
 
 **Ask Sample Questions:**
-- "What is BASF's global procurement strategy?"
-- "How many distribution centers does BASF operate?"
+- "What is the global procurement strategy of the company?"
+- "How many distribution centers does the company operate?"
 - "What are the key supplier evaluation criteria?"
 - "Explain the inventory optimization approach"
 - "What are the sustainability initiatives in logistics?"
@@ -269,12 +269,12 @@ python backend/mcp/server.py
 ### 10. Upload to GitHub
 
 ```bash
-cd scip-qa-platform
+cd qa-chatbot
 git init
 git add .
-git commit -m "Initial commit: SCIP QA Platform v1.0"
+git commit -m "Initial commit: QA Platform v1.0"
 git branch -M main
-git remote add origin https://github.com/your-username/scip-qa-platform.git
+git remote add origin https://github.com/your-username/qa-chatbot.git
 git push -u origin main
 ```
 
@@ -283,7 +283,7 @@ git push -u origin main
 ## Project Structure
 
 ```
-scip-qa-platform/
+qa-chatbot/
 ├── backend/
 │   ├── api/
 │   │   ├── routes/
@@ -516,16 +516,6 @@ See [DEPLOYMENT.md](docs/DEPLOYMENT.md) for detailed Azure deployment instructio
 3. Push to branch: `git push origin feature/new-feature`
 4. Create Pull Request
 
-## License
-
-Proprietary - BASF SE
-
-## Support
-
-For issues or questions:
-- Internal BASF Support: scip-support@basf.com
-- Documentation: https://scip.basf.com/docs
-- SCIPPY Library: https://github.com/basf/scippy
 
 ## Acknowledgments
 
@@ -539,6 +529,7 @@ Built with:
 
 **Version**: 1.0.0  
 **Last Updated**: January 2026  
-**Maintainer**: BASF Digital Supply Chain Team
+
+
 
 
