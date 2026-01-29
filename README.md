@@ -1,8 +1,8 @@
-# SCIP Question-Answering Platform
+# Question-Answering Chatbot
 
 ## Overview
 
-Enterprise-grade Question-Answering platform for BASF's Supply Chain Intelligence Platform (SCIP) using LLM-powered Retrieval Augmented Generation (RAG) with Agentic capabilities and Model Context Protocol (MCP).
+Enterprise-grade Question-Answering platform for BASF's Supply Chain Intelligence Chatbot using LLM-powered Retrieval Augmented Generation (RAG) with Agentic capabilities and Model Context Protocol (MCP).
 
 ### Key Features
 
@@ -540,3 +540,4 @@ Built with:
 **Version**: 1.0.0  
 **Last Updated**: January 2026  
 **Maintainer**: BASF Digital Supply Chain Team
+
